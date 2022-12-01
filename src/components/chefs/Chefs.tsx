@@ -2,7 +2,7 @@ import {useDispatch, useSelector} from 'react-redux';
 import {useNavigate} from 'react-router-dom';
 
 
-export default function chefs(){
+export default function Chefs(){
 
     const dispatch = useDispatch();
     const navigate = useNavigate();

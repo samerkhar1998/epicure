@@ -1,16 +1,17 @@
 import React from 'react';
 import './App.css';
 import Layout from './components/Layout';
-import Footer from './shared/Footer';
-import Header from './shared/Header';
+import Footer from './shared/footer/Footer';
+import Header from './shared/header/Header';
+import { FooterContainer, HeaderContainer, LayoutContainer, MainContainer } from './styles';
 
 function App() {
   return (
-    <div>
+    <MainContainer>
       <Header/>
       <Layout/>
       <Footer/>
-    </div>
+    </MainContainer>
   );
 }
 

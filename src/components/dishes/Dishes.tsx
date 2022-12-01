@@ -2,7 +2,7 @@ import {useDispatch, useSelector} from 'react-redux';
 import {useNavigate} from 'react-router-dom';
 
 
-export default function dishes(){
+export default function Dishes(){
 
     const dispatch = useDispatch();
     const navigate = useNavigate();
@@ -11,4 +11,4 @@ export default function dishes(){
     return(
         <p>Hello</p>
     )
-}
+};
