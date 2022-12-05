@@ -31,7 +31,7 @@ export default function Home(){
     return (
         <MainContainer>
           <Hero/>
-          <RestaurantsSlider/>
+          {/* <RestaurantsSlider/> */}
         </MainContainer>
 
     )

@@ -4,11 +4,14 @@ export const MainContainer = styled.div`
 display:flex;
 width:100%;
 height:100%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 
 `
 
 export const Img = styled.img`
-width:120%;
+width:100%;
 
 `
 
@@ -17,22 +20,14 @@ export const Container = styled.div`
 
 display: flex;
 flex-direction: column;
-justify-content: center;
 align-items: center;
 gap: 18px;
-
 position: absolute;
-left: 10%;
-right:10%;
-top: 12%;
-height:20%;
-justify-content: flex-start;
+width: 90%;
 background: rgba(255, 255, 255, 0.88);
 `
 
 export const SubContainer = styled.div`
-width: 100%;
-height: 35%;
 
 font-family: 'Helvetica Neue';
 font-style: normal;
@@ -66,10 +61,10 @@ padding: 6px 12px;
 gap: 8px;
 width: 90%;
 height: 20%;
+margin-bottom: 20px;
 
 border: 0.5px solid #000000;
 border-radius: 4px;
-// transform: matrix(1, 0, 0, -1, 0, 0);
 
 /* Inside auto layout */
 
@@ -91,7 +86,8 @@ line-height: 15px;
 
 letter-spacing: 1.29px;
 color: #000000;
-
+background-color: rgba(255, 255, 255, 0);
+border-color: transparent;
 
 /* Inside auto layout */
 

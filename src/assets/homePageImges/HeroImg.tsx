@@ -8,9 +8,9 @@ export default function Hero(){
         <MainContainer>
             <Img src={heroImg} alt="hero img" />
             <Container>
-                <SubContainer>Epicure works with the top chef restaurantsin Tel Aviv</SubContainer>
+                <SubContainer>Epicure works with the top chef restaurantsin in Tel Aviv</SubContainer>
                 <SearchBox>
-                    <img src={magnifier} alt="magnifier img" style={{height:"250%", width:"7%"}}/>
+                    <img src={magnifier} alt="magnifier img" />
                     <Input placeholder="Search for restaurant cuisine, chef"></Input>
                 </SearchBox>
             </Container>

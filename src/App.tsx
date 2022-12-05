@@ -9,8 +9,8 @@ function App() {
   return (
     <MainContainer>
       <Header/>
-      {/* <Layout/> */}
-      {/* <Footer/> */}
+      <Layout/>
+      <Footer/>
     </MainContainer>
   );
 }

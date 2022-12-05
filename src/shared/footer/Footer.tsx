@@ -4,12 +4,10 @@ import { Container, MainRectanlge, Rectangle1, Rectangle2, Rectangle3 } from "./
 
 export default function Footer(){
     return (
-        // <Container>
             <MainRectanlge>
                 <Rectangle1>Contact Us</Rectangle1>
                 <Rectangle2>Term of Use</Rectangle2>
                 <Rectangle3>Privacy Policy</Rectangle3>
             </MainRectanlge>
-        // </Container>
     )
 }

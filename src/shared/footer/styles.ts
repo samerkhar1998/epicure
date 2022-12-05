@@ -19,7 +19,6 @@ flex-direction: column;
 align-items: flex-start;
 gap: 20px;
 
-position: absolute;
 width: 100%;
 
 `
