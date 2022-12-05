@@ -1,13 +1,30 @@
-import { MainContainer, RestaurantCard, Slide, SliderContainer } from "./styles";
+import { Container, Title, MainContainer, SwiperContainer, SwiperList} from "./restaurantAssets/styles";
+import img from '../../data/images/claro.png'
+
+import { useSelector } from "react-redux";
+import RestaurantCard from "./restaurantAssets/RestaurantCard";
+import RestaurantsLink from "./restaurantAssets/RestaurantsLink";
 
 
 export default function RestaurantsSlider(){
+    const restaurants = useSelector((state:any) => state.restaurants.value);
+    
     return (
-        <SliderContainer>
-            <Slide>
-            <RestaurantCard>hey</RestaurantCard>
-            </Slide>
+        <MainContainer>
+            <Title>POPULAR RESTAURANTS IN IPICURE:</Title>
             
-        </SliderContainer>
+            <Container>
+                <SwiperContainer>
+                    <SwiperList>
+                        {restaurants.map((restaurant:any, idx:number) => (<RestaurantCard key= {idx} {...restaurant}/>))}
+                    </SwiperList>
+                </SwiperContainer>
+                
+            </Container>
+
+            <RestaurantsLink/>
+        </MainContainer>
+            
+            
     )
 }

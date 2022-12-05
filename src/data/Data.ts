@@ -1,8 +1,8 @@
-// import restaurantPic from "./images/claro.png";
-// import chefIMG from "./images/yossi.png"
-// import spicy from "./images/Spicy.svg";
-// import vegan from "./images/Vegan.svg";
-// import vegetarian from "./images/Vegitarian.svg";
+import restaurantPic from "./images/claro.png";
+import chefIMG from "./images/yossi.png"
+import spicy from "./images/Spicy.svg";
+import vegan from "./images/Vegan.svg";
+import vegetarian from "./images/Vegitarian.svg";
 
 
 export async function fetchRestaurants(){
@@ -12,28 +12,28 @@ export async function fetchRestaurants(){
                     owner: "Tony",
                     dishesID: [1, 5, 6, 7],
                     hours: "7:00-22:00",
-                    picture: "restaurantPic"
+                    picture: restaurantPic
                 },
                 {
                     name: "shrimpsHouse",
                     owner: "Nikola",
                     dishesID: [1, 3, 7],
                     hours: "12:00-22:00",
-                    picture: 'restaurantPic'
+                    picture: restaurantPic
                 },
                 {
                     name: "Douzan",
                     owner: "Fady",
                     dishesID: [2, 3, 4],
                     hours: "7:00-22:00",
-                    picture: "restaurantPic"
+                    picture: restaurantPic
                 },
                 {
                     name: "mandarin",
                     owner: "yoval",
                     dishesID: [4, 5, 6, 7],
                     hours: "7:00-22:00",
-                    picture: "restaurantPic"
+                    picture: restaurantPic
                 },
                 
     ]

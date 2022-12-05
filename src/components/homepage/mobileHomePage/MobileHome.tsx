@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { fetchChefs, fetchDishes, fetchRestaurants} from '../../../data/Data';
 import {useNavigate} from 'react-router-dom';
-import { setRestaurants } from '../../restaurants/restaurantsSlicer';
+import { setRestaurants } from '../../restaurants/restaurantAssets/restaurantsSlicer';
 import { setDishes } from '../../dishes/dishesSlicer';
 import { setChefs } from '../../chefs/chefsSlicer';
 import { useDispatch } from 'react-redux';
@@ -31,7 +31,7 @@ export default function Home(){
     return (
         <MainContainer>
           <Hero/>
-          {/* <RestaurantsSlider/> */}
+          <RestaurantsSlider/>
         </MainContainer>
 
     )

@@ -18,6 +18,7 @@ display: flex;
 flex-direction: column;
 align-items: flex-start;
 gap: 20px;
+padding: 16px;
 
 width: 100%;
 
