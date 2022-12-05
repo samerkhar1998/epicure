@@ -3,14 +3,14 @@ import './App.css';
 import Layout from './components/Layout';
 import Footer from './shared/footer/Footer';
 import Header from './shared/header/Header';
-import { FooterContainer, HeaderContainer, LayoutContainer, MainContainer } from './styles';
+import { MainContainer } from './styles';
 
 function App() {
   return (
     <MainContainer>
       <Header/>
-      <Layout/>
-      <Footer/>
+      {/* <Layout/> */}
+      {/* <Footer/> */}
     </MainContainer>
   );
 }

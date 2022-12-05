@@ -1,7 +1,13 @@
+import { MainContainer, RestaurantCard, Slide, SliderContainer } from "./styles";
 
 
 export default function RestaurantsSlider(){
     return (
-        <h1>helo</h1>
+        <SliderContainer>
+            <Slide>
+            <RestaurantCard>hey</RestaurantCard>
+            </Slide>
+            
+        </SliderContainer>
     )
 }
