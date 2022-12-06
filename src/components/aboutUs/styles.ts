@@ -11,10 +11,8 @@ align-items: flex-start;
 gap: 32px;
 
 width: 100%;
-height: 867px;
-left: -1px;
-top: 2896px;
-margin-left: 16px;
+height: 800px;
+padding-left: 16px;
 background: #FAFAFA;
 `
 
@@ -91,5 +89,40 @@ flex: none;
 order: 1;
 flex-grow: 0;
 background: url(${appleLogo});
+`
 
+export const AboutUsContainer = styled.div`
+width: 100%;
+height: 35px;
+left: 20px;
+top: 3215px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 200;
+font-size: 18px;
+line-height: 35px;
+/* identical to box height, or 194% */
+
+letter-spacing: 1.25px;
+text-transform: uppercase;
+
+color: #000000;
+
+order:2;
+`
+
+export const AboutUsText = styled.div`
+width: 100%;
+height: auto;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 200;
+font-size: 18px;
+line-height: 156%;
+
+letter-spacing: 2.14px;
+order: 3;
+color: #000000;
 `

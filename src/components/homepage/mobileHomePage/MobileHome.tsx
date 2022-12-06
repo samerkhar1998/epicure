@@ -12,6 +12,7 @@ import RestaurantsSlider from '../../restaurants/RestaurantsSlider';
 import DishesSlider from '../../dishes/DishesSlider';
 import SigntureDishes from '../../dishes/SigntureDishes';
 import AboutUs from '../../aboutUs/AboutUs';
+import ChefOfTheWeek from '../../chefs/chefOfTheWeek/ChefOfTheWeek';
 
 
 
@@ -37,6 +38,7 @@ export default function Home(){
           <RestaurantsSlider/>
           <DishesSlider/>
           <SigntureDishes/>
+          <ChefOfTheWeek/>
           <AboutUs/>
         </MainContainer>
 
