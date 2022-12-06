@@ -70,7 +70,11 @@ flex: none;
 order: 0;
 flex-grow: 0;
 `
-export const Info = styled.div`
+
+interface DishProps{
+    dish?:boolean
+}
+export const Info = styled.div<DishProps>`
 /* Info */
 
 
@@ -79,12 +83,13 @@ export const Info = styled.div`
 display: flex;
 flex-direction: column;
 align-items: flex-start;
+
 padding: 16px;
 padding-bottom: 0px;
 gap: 10px;
 
 // width: 245px;
-height: 67px;
+height: ${props => props.dish ? '236px' : "67px" };
 
 background: #F9F4EA;
 
@@ -96,6 +101,8 @@ align-self: stretch;
 flex-grow: 0;
 `
 
+
+
 export const Frame = styled.div`
 /* Frame 3 */
 
@@ -105,11 +112,12 @@ export const Frame = styled.div`
 display: flex;
 flex-direction: column;
 align-items: flex-start;
+justify-content: space-around;
 padding: 0px;
 gap: 8px;
 
 width: 100%;
-height: 49px;
+height: 100%; 
 
 
 /* Inside auto layout */
@@ -140,13 +148,13 @@ flex-grow: 0;`
 
 export const H2 = styled.div`
 width: 100%;
-height: 20px;
+height: auto;
 
 font-family: 'Helvetica Neue';
 font-style: normal;
 font-weight: 200;
 font-size: 16px;
-line-height: 20px;
+line-height: 125%;
 /* identical to box height, or 125% */
 
 letter-spacing: 1.97px;
@@ -160,7 +168,51 @@ flex: none;
 order: 1;
 flex-grow: 0;
 `
+export const H3 = styled.div`
+width: 100%;
+height: auto;
 
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+line-height: 125%;
+/* identical to box height, or 125% */
+
+letter-spacing: 1.97px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+`
+
+export const H4 = styled.div`
+width: 100%;
+height: auto;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+line-height: 125%;
+/* identical to box height, or 125% */
+
+letter-spacing: 1.97px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+`
 export const Link = styled.button `
 display: flex;
 flex-direction: row;
@@ -236,11 +288,14 @@ max-width: 90vw;
 overflow: auto;
 `
 
-export const SwiperList = styled.li `
+
+
+export const SwiperList = styled.li<DishProps> `
 min-width:100%;
 display: flex;
 flex-direction: row;
 list-style: none;
 padding: 0;
 margin:0;
+margin-bottom: ${props => props.dish ? '160px' : '0'};
 `

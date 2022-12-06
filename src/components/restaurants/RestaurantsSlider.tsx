@@ -1,4 +1,4 @@
-import { Container, Title, MainContainer, SwiperContainer, SwiperList} from "./restaurantAssets/styles";
+import { Container, Title, MainContainer, SwiperContainer, SwiperList} from "../sharedStyles";
 import img from '../../data/images/claro.png'
 
 import { useSelector } from "react-redux";

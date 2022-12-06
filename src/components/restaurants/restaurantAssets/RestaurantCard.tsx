@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Img, Info, Frame, H1, H2 } from './styles'
+import { Card, Img, Info, Frame, H1, H2 } from '../../sharedStyles'
 
 function RestaurantCard(restaurant:any) {
   return (

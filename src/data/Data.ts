@@ -42,44 +42,44 @@ export async function fetchDishes(){
     return [
         {
             name: "sea bass",
-            ingredients: ["salt", "pepper"],
-            picture: "restaurantPic",
-            dishType: "spicy",
+            ingredients: ["salt ", "pepper "],
+            picture: restaurantPic,
+            dishType: spicy,
             price: 100
         },
         {
             name: "galatys",
-            ingredients: ["salt", "pepper", "creamy pesto sauce", "shrimps"],
-            picture: "restaurantPic",
-            dishType: "vegan",
+            ingredients: ["salt ", "pepper ", "creamy pesto sauce ", "shrimps "],
+            picture: restaurantPic,
+            dishType: vegan,
             price: 120
         },
         {
             name: "spicy pizza",
-            ingredients: ["jalapeno", "Dried Thai Chilies", "Red Chili Flakes"],
-            picture: "restaurantPic",
-            dishType: "vegetarian",
+            ingredients: ["jalapeno ", "Dried Thai Chilies ", "Red Chili Flakes "],
+            picture: restaurantPic,
+            dishType: vegetarian,
             price: 70
         },
         {
-            name: "Creamy Mushroom Spaghetti",
-            ingredients: ["salt", "pepper", "sautéed mushrooms", "garlic cream sauce"],
-            picture: 'restaurantPic',
-            dishType: "spicy",
+            name: "Creamy Spaghetti",
+            ingredients: ["salt ", "pepper ", "sautéed mushrooms ", "garlic cream sauce "],
+            picture: restaurantPic,
+            dishType: spicy,
             price: 79
         },
         {
             name: "mexican hamburger",
-            ingredients: ["Creamy guacamole", "spicy home-made pico de gallo"],
-            picture: "restaurantPic",
-            dishType: "spicy",
+            ingredients: ["Creamy guacamole ", "spicy home-made pico de gallo"],
+            picture: restaurantPic,
+            dishType: spicy,
             price: 75
         },
         {
             name: "Risotto",
-            ingredients: ["Rice", "Bouillon", "Butter", "Onion", "White Wine", "Parmesan"],
-            picture: "restaurantPic",
-            dishType: "vegan",
+            ingredients: ["Rice ", "Bouillon ", "Butter ", "Onion ", "White Wine ", "Parmesan "],
+            picture: restaurantPic,
+            dishType: vegan,
             price: 100
         },
         

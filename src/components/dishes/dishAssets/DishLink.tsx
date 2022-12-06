@@ -1,10 +1,8 @@
 import React from 'react'
-import { Link, MyText, VectorContainer } from '../../sharedStyles'
 import vector from '../../../data/images/Vector.svg';
-import {useNavigate} from 'react-router-dom';
+import {Link, MyText, VectorContainer} from '../../sharedStyles';
 
-function RestaurantsLink() {
-  const navigate = useNavigate();
+function DishLink() {
   return (
     <Link >
         <MyText >All Restaurants</MyText>
@@ -19,4 +17,4 @@ function RestaurantsLink() {
   )
 }
 
-export default RestaurantsLink
+export default DishLink
