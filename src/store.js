@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
-import restaurantsReducer from './components/restaurants/restaurantAssets/restaurantsSlicer'
-import dishesReducer from './components/dishes/dishAssets/dishesSlicer'
-import chefsReducer from './components/dishes/dishAssets/dishesSlicer'
+import restaurantsReducer from './components/restaurants/restaurantsSlicer'
+import dishesReducer from './components/dishes/dishForHomePage/dishesSlicer'
+import chefsReducer from './components/dishes/dishForHomePage/dishesSlicer'
 
 export default configureStore({
   reducer: {

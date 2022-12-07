@@ -1,9 +1,9 @@
-import { Container, Title, MainContainer, SwiperContainer, SwiperList} from "../sharedStyles";
-import img from '../../data/images/claro.png'
+import { Container, Title, MainContainer, SwiperContainer, SwiperList} from "../../sharedStyles";
+import img from '../../../data/images/claro.png'
 
 import { useSelector } from "react-redux";
-import RestaurantCard from "./restaurantAssets/RestaurantCard";
-import RestaurantsLink from "./restaurantAssets/RestaurantsLink";
+import RestaurantCard from "./RestaurantCard";
+import RestaurantsLink from "./RestaurantsLink";
 
 
 export default function RestaurantsSlider(){

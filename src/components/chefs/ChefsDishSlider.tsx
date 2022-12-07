@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import DishCard from '../dishes/dishAssets/DishCard';
-import RestaurantsLink from '../restaurants/restaurantAssets/RestaurantsLink'
+import DishCard from '../dishes/dishForHomePage/DishCard';
+import RestaurantsLink from '../restaurants/restaurantHomPage/RestaurantsLink'
 import { Container, MainContainer, SwiperContainer, SwiperList, Title } from '../sharedStyles'
 
 function ChefsDishSlider() {

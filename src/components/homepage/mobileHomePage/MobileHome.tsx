@@ -1,16 +1,16 @@
 import { useEffect } from 'react';
 import { fetchChefs, fetchDishes, fetchRestaurants} from '../../../data/Data';
 import {useNavigate} from 'react-router-dom';
-import { setRestaurants } from '../../restaurants/restaurantAssets/restaurantsSlicer';
-import { setDishes } from '../../dishes/dishAssets/dishesSlicer';
+import { setRestaurants } from '../../restaurants/restaurantsSlicer';
+import { setDishes } from '../../dishes/dishForHomePage/dishesSlicer';
 import { setChefs } from '../../chefs/chefsSlicer';
 import { useDispatch } from 'react-redux';
 import Restaurants from '../../restaurants/Restaurants';
 import { MainContainer } from './styles';
-import Hero from '../../../assets/homePageImges/HeroImg';
-import RestaurantsSlider from '../../restaurants/RestaurantsSlider';
-import DishesSlider from '../../dishes/DishesSlider';
-import SigntureDishes from '../../dishes/SigntureDishes';
+import Hero from '../../hero/Hero';
+import RestaurantsSlider from '../../restaurants/restaurantHomPage/RestaurantsSlider';
+import DishesSlider from '../../dishes/dishForHomePage/DishesSlider';
+import SigntureDishes from '../../dishes/dishForHomePage/SigntureDishes';
 import AboutUs from '../../aboutUs/AboutUs';
 import ChefOfTheWeek from '../../chefs/chefOfTheWeek/ChefOfTheWeek';
 

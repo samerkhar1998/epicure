@@ -1,8 +1,8 @@
-import Cart from "../../assets/headerImges/Cart";
-import Hamburger from "../../assets/headerImges/Hamburger";
-import Logo from "../../assets/headerImges/Logo";
-import Profile from "../../assets/headerImges/Profile";
-import Search from "../../assets/headerImges/Search";
+import Cart from "./headerImges/Cart";
+import Hamburger from "./headerImges/Hamburger";
+import Logo from "./headerImges/Logo";
+import Profile from "./headerImges/Profile";
+import Search from "./headerImges/Search";
 import { LeftColumn, CenterColumn, RightColumn, Row } from "./styles";
 
 

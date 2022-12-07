@@ -1,4 +1,5 @@
-import cartImg from "../../data/images/cart.svg";
+import cartImg from "../../../data/images/cart.svg";
+
 import { Button } from "./styles";
 
 export default function Cart(){

@@ -1,4 +1,4 @@
-import hamburgerImg from "../../data/images/hamburber.svg";
+import hamburgerImg from "../../../data/images/hamburber.svg";
 import { Button } from "./styles";
 import {useNavigate} from 'react-router-dom';
 

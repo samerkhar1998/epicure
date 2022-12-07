@@ -1,7 +1,8 @@
 import { useSelector } from "react-redux";
-import { MainContainer, Title,Container, SwiperContainer,SwiperList } from "../sharedStyles";
-import DishCard from "./dishAssets/DishCard";
-import DishLink from "./dishAssets/DishLink";
+import { MainContainer, Title,Container, SwiperContainer,SwiperList } from "../../sharedStyles";
+import DishCard from "./DishCard";
+import DishLink from "./DishLink";
+
 
 
 export default function RestaurantsSlider(){

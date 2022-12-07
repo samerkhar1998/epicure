@@ -1,4 +1,4 @@
-import magnifier from "../../data/images/search.svg";
+import magnifier from "../../../data/images/search.svg";
 import { Button } from "./styles";
 
 

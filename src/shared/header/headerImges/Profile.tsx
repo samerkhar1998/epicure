@@ -1,4 +1,4 @@
-import profileImg from "../../data/images/account.svg";
+import profileImg from "../../../data/images/account.svg";
 import { Button } from "./styles";
 
 export default function Profile(){
