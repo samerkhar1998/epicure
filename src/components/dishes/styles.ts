@@ -9,6 +9,7 @@ height: 584px;
 left: -1px;
 top: 1270px;
 background: #FFFFFF;
+order:3;
 `
 
 export const Container = styled.div`

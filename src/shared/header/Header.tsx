@@ -10,7 +10,7 @@ export default function Header(){
     return(
             <Row>
                 <LeftColumn ><Hamburger/></LeftColumn>
-                <CenterColumn><Logo/></CenterColumn>
+                <CenterColumn><Logo /></CenterColumn>
                 <RightColumn>
                         <Search/>
                         <Profile/>

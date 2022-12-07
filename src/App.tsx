@@ -8,9 +8,7 @@ import { MainContainer } from './styles';
 function App() {
   return (
     <MainContainer>
-      <Header/>
       <Layout/>
-      <Footer/>
     </MainContainer>
   );
 }

@@ -6,7 +6,7 @@ import {useNavigate} from 'react-router-dom';
 function RestaurantsLink() {
   const navigate = useNavigate();
   return (
-    <Link >
+    <Link onClick={() => navigate('restaurants')}>
         <MyText >All Restaurants</MyText>
         <VectorContainer>
         <img src={vector} alt="vector" />

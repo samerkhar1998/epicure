@@ -1,9 +1,12 @@
 import hamburgerImg from "../../data/images/hamburber.svg";
+import { Button } from "./styles";
+import {useNavigate} from 'react-router-dom';
 
 export default function Hamburger(){
+    // const navigate = useNavigate();
     return(
         <>
-        <img src={hamburgerImg} alt="hamburger img" />
+        <Button><img src={hamburgerImg} alt="hamburger img" /></Button>
         {/* <dialog 
         open={hamburgerStatus}
         onClose={handleCloseHamburger}

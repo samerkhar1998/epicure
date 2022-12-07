@@ -20,7 +20,7 @@ align-items: flex-start;
 gap: 20px;
 padding: 16px;
 
-width: 100%;
+width: auto;
 
 `
 export const Rectangle1 = styled.div`

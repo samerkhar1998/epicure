@@ -8,6 +8,7 @@ display:flex;
 flex-direction: column;
 align-items: baseline;
 margin-top:25px;
+order:2;
 `
 
 export const Container = styled.div`
@@ -227,6 +228,7 @@ left: 20px;
 top: 659px;
 
 border-style: hidden;
+background-color: transparent;
 
 `
 

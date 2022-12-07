@@ -9,11 +9,12 @@ flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
 gap: 32px;
-
+padding-top: 20px;
 width: 100%;
 height: 800px;
 padding-left: 16px;
 background: #FAFAFA;
+order:5;
 `
 
 export const Logo = styled.div`

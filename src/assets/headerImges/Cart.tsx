@@ -1,8 +1,9 @@
 import cartImg from "../../data/images/cart.svg";
+import { Button } from "./styles";
 
 export default function Cart(){
     return(
-        <img src={cartImg} alt="cart image" />
+        <Button><img src={cartImg} alt="cart image" /></Button>
     )
 
 }

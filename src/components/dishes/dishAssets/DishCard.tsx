@@ -12,8 +12,6 @@ function DishCard(dish:any) {
                 <H2>{dish.ingredients}</H2>
                 <H3><img src={dish.dishType} alt="hamburger img" /></H3>
                 <H4>{dish.price}</H4>
-                
-                
             </Frame>
         </Info>
     </Card>
