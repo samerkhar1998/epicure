@@ -1,5 +1,5 @@
 import profileImg from "../../../data/images/account.svg";
-import { Button } from "./styles";
+import { Button } from "./sharedStyles";
 
 export default function Profile(){
 

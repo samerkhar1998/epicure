@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import logoImg from "../../../data/images/logo.svg";
-import { Button } from "./styles";
+import { Button } from "./sharedStyles";
 
 
 export default function Logo(){

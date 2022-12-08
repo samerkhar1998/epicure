@@ -1,5 +1,5 @@
 import heroImg from "../../data/images/hompePage_img.png"
-import Search from "../../shared/header/headerImges/Search"
+import Search from "../../shared/header/headerImges/search/Search"
 import { MainContainer,Img, Container, SubContainer, SearchBox, Input } from "./styles"
 import magnifier from "../../data/images/search.svg";
 
