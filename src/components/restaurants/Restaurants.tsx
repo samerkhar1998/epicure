@@ -13,8 +13,8 @@ export default function Restaurants(){
     
     return(
         <MainContainer>
-            
-            {restaurants.map((restaurant:any, idx:number) => (<RestaurantCard key= {idx} {...restaurant}/>))}
+
+            {/* {restaurants.map((restaurant:any, idx:number) => (<RestaurantCard key= {idx} {...restaurant}/>))} */}
 
         </MainContainer>
     )
