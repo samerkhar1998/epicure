@@ -21,22 +21,18 @@ gap: 20px;
 padding: 16px;
 
 width: auto;
-
-`
-export const Rectangle1 = styled.div`
-flex: none;
-order: 0;
-flex-grow: 0;
 `
 
-export const Rectangle2 = styled.div`
+interface ColProps{
+    order:number;
+}
+export const Button = styled.button<ColProps>`
 flex: none;
-order: 1;
+order: ${prop => prop.order};
 flex-grow: 0;
+background-color: transparent;
+border-color: transparent;
 `
 
-export const Rectangle3 = styled.div`
-flex: none;
-order: 2;
-flex-grow: 0;
-`
+
+

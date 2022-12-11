@@ -1,5 +1,7 @@
 import {useDispatch, useSelector} from 'react-redux';
 import {useNavigate} from 'react-router-dom';
+import RestaurantCard from './restaurantHomPage/RestaurantCard';
+import { MainContainer } from './styles';
 
 
 export default function Restaurants(){
@@ -10,10 +12,10 @@ export default function Restaurants(){
     
     
     return(
-        <div>
-            <h1>I am in restaurant</h1>
-            <h2>{restaurants[0].name}</h2>
+        <MainContainer>
+            
+            {restaurants.map((restaurant:any, idx:number) => (<RestaurantCard key= {idx} {...restaurant}/>))}
 
-        </div>
+        </MainContainer>
     )
 }
