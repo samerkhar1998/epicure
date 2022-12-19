@@ -38,20 +38,24 @@ export const SlideContainer = styled.div`
 
 `
 
-export const Card = styled.div`
+interface CardProps{
+    margin:boolean;
+}
+
+export const Card = styled.div<CardProps>`
 display: flex;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-margin-right: 30px;
+margin-right: ${props => props.margin? '0px':'30px'};
 width: 245px;
-height: 232.8px;
+height: 244.8px;
 
 
 /* Inside auto layout */
 
 flex: none;
-order: 0;
+
 flex-grow: 0;
 `
 

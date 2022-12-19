@@ -1,14 +1,21 @@
 import React from 'react'
 import { Card, Img, Info, Frame, H1, H2 } from '../../sharedStyles'
 
-function RestaurantCard(restaurant:any) {
+interface Props {
+  restaurant: any;
+  resPage: boolean;
+}
+
+// function RestaurantCard(restaurant:any, resPage: boolean) {
+function RestaurantCard(props: Props) {
+  
   return (
-    <Card>
-        <Img src={restaurant.picture}/>
+    <Card margin={props.resPage} >
+        <Img src={props.restaurant.picture} />
         <Info>
             <Frame>
-                <H1>{restaurant.name}</H1>
-                <H2>{restaurant.owner}</H2>
+                <H1>{props.restaurant.name}</H1>
+                <H2>{props.restaurant.owner}</H2>
             </Frame>
         </Info>
     </Card>

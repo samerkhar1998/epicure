@@ -4,8 +4,8 @@ import { Card, Frame, H1, H2, H3, H4, Img, Info } from '../../sharedStyles'
 
 function DishCard(dish:any) {
   return (
-    <Card>
-        <Img src={dish.picture}/>
+    <Card margin={false}>
+        <Img src={dish.picture} />
         <Info dish={true}>
             <Frame>
                 <H1>{dish.name}</H1>
