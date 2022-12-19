@@ -1,7 +1,7 @@
 import {useDispatch, useSelector} from 'react-redux';
 import {useNavigate} from 'react-router-dom';
 import RestaurantCard from './restaurantHomPage/RestaurantCard';
-import { MainContainer } from './styles';
+import { CardsContainer, FilterContainer, H1, MainContainer, Text } from './styles';
 
 
 export default function Restaurants(){
@@ -9,12 +9,20 @@ export default function Restaurants(){
     const dispatch = useDispatch();
     const navigate = useNavigate();
     const restaurants = useSelector((state:any) => state.restaurants.value);
-    
-    
+
     return(
         <MainContainer>
-
-            {/* {restaurants.map((restaurant:any, idx:number) => (<RestaurantCard key= {idx} {...restaurant}/>))} */}
+            
+            <H1>restaurants</H1>
+            <FilterContainer>
+                <Text>All</Text>
+                <Text>New</Text>
+                <Text>Most Popular</Text>
+                <Text>Open Now</Text>
+            </FilterContainer>
+            <CardsContainer>
+                {restaurants && restaurants.map((restaurant:any, idx:number) => (<RestaurantCard  key={idx} restaurant={restaurant} resPage={true}/>))}
+            </CardsContainer>
 
         </MainContainer>
     )
